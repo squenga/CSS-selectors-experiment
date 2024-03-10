@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap')
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Chewy", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
+  	margin: 0vmin;
+  	padding: 0vmin;
+  	background-color: darkcyan;
+}
+
+.firstFlex {
+	display: flex;
+	justify-content: center;
+}
+
+.firstFlex div {
+	background-color: #00cc99;
+	margin: 1.5vmin;
+	padding: 1.5vmin;
+	border: 0.5vmin solid;
+	border-color: #666633;
+}
+
+.firstFlex div > p {
+	display: flex;
+	justify-content: center;
+	background-color: #00ffff;
+}
+
+.firstFlex > div > p {
+	border: 0.5vmin solid;
+	border-color: #006699;
+}
+
+.firstFlex > div > div {
+	display: flex;
+	justify-content: center;
+	border: 0.5vmin solid;
+	border-color: #006666;
+	background-color: #66ffcc;
+}
+
+p:first-child {
+	color: #003300;
+	letter-spacing: 0.2vmin;
+}
+
+p:last-child {
+	background-color: lightblue;
+}
+
+.firstFlex img {
+	width: 10vmax;
+	height: auto;
+	border: 0.5vmin solid;
+	border-color: #33cc33;
+}
+
+.secondFlex {
+	display: flex;
+	justify-content: center;
+	background-color: #ff6666;
+}
+
+.secondFlex div p {
+	display: flex;
+	justify-content: center;
+	border: 0.5vmin solid;
+	border-color: #ff3300;
+	background-color: #ff6600;
+	color: yellow;
+}
+
+.secondFlex > div {
+	background-color: #cc0000;
+	margin: 1.5vmin;
+	padding: 1.5vmin;
+	border: 0.5vmin solid;
+	border-color: #800000;
+	box-shadow: 0.5vmin 0.5vmin;
+}
+
+.secondFlex > div > div {
+	display: flex;
+	justify-content: center;
+	color: #ffcc00;
+	letter-spacing: 0.5vmin;
+}
+
+.secondFlex div a:link {
+	color: #ffff66;
+	padding: 1vmin;
+}
+
+.secondBody p:last-of-type {
+	text-decoration: line-through;
+}
+
+a:active {
+	color: purple;
+}
+
+a:hover {
+	background-color: #00ccff;
+}
+
+a:visited {
+	color: #ffcc00;
+}
+
+p {
+	color: black;
+}
+
+.thirdBody p:first-of-type {
+	color: pink;
+	background-color: #ff9999;
+}
+
+.thirdBody p:last-of-type {
+	display: flex;
+	justify-content: right;
+	color: midnightblue;
+	text-decoration: line-through;
+}
+
+:not(p) {
+	color: black;
+}
